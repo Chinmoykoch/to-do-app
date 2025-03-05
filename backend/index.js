@@ -22,7 +22,7 @@ app.use(cors());
 import userRoutes from "./routes/user.js";
 import taskRoutes from "./routes/tasks.js";
 app.use("/user", userRoutes);
-app.use("/user", taskRoutes);
+app.use("/task", taskRoutes);
 
 const port = process.env.PORT || 8000;
 
